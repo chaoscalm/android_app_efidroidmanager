@@ -13,12 +13,12 @@ static def gitDirty() {
 }
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 29
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "org.efidroid.efidroidmanager"
-        minSdkVersion 15
-        targetSdkVersion 25
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode 5
         versionName "1.0-g${gitRevision()}${gitDirty()}"
 
